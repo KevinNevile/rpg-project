@@ -1,29 +1,21 @@
-# rpg-project
+ <h1 align="center"> RPG-PROJECT </h1>
 
-This template should help get you started developing with Vue 3 in Vite.
+- Curso: Análise e Desenvolvimento de Sistemas
+	
+- Matéria: Desenvolvimento de Aplicações para a Internet
+  
+- Aluno: Kevin Nevile de Oliveira
 
-## Recommended IDE Setup
+- 4°TERMO
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Desenvolver
 
-## Customize configuration
+Projeto consumindo uma Api utilizando 
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+<img loading="icone" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" width="50" height="50"/>
 
-## Project Setup
+- [API: DnD5eApi](http://www.dnd5eapi.co/)
 
-```sh
-npm install
-```
+## Objetivo
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- Fazer um projeto onde mostra as classes e uma descrição de cada uma.
