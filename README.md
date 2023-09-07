@@ -1,17 +1,21 @@
-# Project-API
+ <h1 align="center"> RPG-PROJECT </h1>
 
-**UNIMAR**
+- Curso: Análise e Desenvolvimento de Sistemas
+	
+- Matéria: Desenvolvimento de Aplicações para a Internet
+  
+- Aluno: Kevin Nevile de Oliveira
 
-ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+- 4°TERMO
 
-DESENVOLVIMENTO DE APLICAÇÕES PARA A INTERNET
-
-KEVIN NEVILE DE OLIVEIRA 4°TERMO
+## Desenvolver
 
 Projeto consumindo uma Api utilizando 
 
 <img loading="icone" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" width="50" height="50"/>
 
-Api utilizada: http://www.dnd5eapi.co/
+- [API: DnD5eApi](http://www.dnd5eapi.co/)
 
-Fazer um projeto onde mostra as classes e uma descrição de cada uma.
+## Objetivo
+
+- Fazer um projeto onde mostra as classes e uma descrição de cada uma.
