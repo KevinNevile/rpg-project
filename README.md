@@ -1,29 +1,17 @@
-# rpg-project
+# Project-API
 
-This template should help get you started developing with Vue 3 in Vite.
+**UNIMAR**
 
-## Recommended IDE Setup
+ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+DESENVOLVIMENTO DE APLICAÇÕES PARA A INTERNET
 
-## Customize configuration
+KEVIN NEVILE DE OLIVEIRA 4°TERMO
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Projeto consumindo uma Api utilizando 
 
-## Project Setup
+<img loading="icone" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" width="50" height="50"/>
 
-```sh
-npm install
-```
+Api utilizada: http://www.dnd5eapi.co/
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Fazer um projeto onde mostra as classes e uma descrição de cada uma.
