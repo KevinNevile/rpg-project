@@ -1,16 +1,16 @@
 <script setup>
-
+const classe = defineProps(["name", "url"])
 
 </script>
 
 <template>  
     <div class="col-4">
         <div class="card mb-3">
-        <img class="card-img-top" src="..." alt="Card image cap">
+        <img class="card-img-top" src="../assets/favicon.ico" alt="Card image cap">
             <div class="card-body mx-auto">
-                <h5 class="card-title text-center capitalize">Teste</h5>
+                <h5 class="card-title text-center capitalize">{{ classe.name }}</h5>
 
-                <a href="..." target="_blank" class="btn btn-primary">Detalhes</a>
+                <a :href="classe.url" target="_blank" class="btn btn-primary">Detalhes</a>
             </div>
         </div>
     </div>

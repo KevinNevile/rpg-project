@@ -25,14 +25,12 @@ let num = ref(0)
     </div>
   </nav>
 
-  
-
   <div class="main">
     <router-view></router-view>
   </div>
 
-  <footer class="bg-dark text-light">
-    <div> Unimar | ADS | {{ new Date().getFullYear() }}</div>
+  <footer class="bg-dark text-light" >
+    <div> Sponsered By: Myself </div>
   </footer>
 
 </template>
