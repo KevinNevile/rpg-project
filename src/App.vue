@@ -6,42 +6,31 @@ let num = ref(0)
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body">
+  <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-body static-top fixed-top " style="background-color: rgba(102, 0, 0, 0.863);">
     <div class="container-fluid">
+      <img src="../src/assets/D20.svg" alt="Icone" width="30" height="30">
       <router-link to="/" class="navbar-brand">RPG-Class</router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span> 
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
+
         <ul class="navbar-nav">
           <li class="nav-item">
             <router-link to="/" class="nav-link" aria-current="page">Home</router-link>
           </li>  
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <router-link to="/about" class="nav-link">About</router-link>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="main">
+
+  
+  <div class="main mt-5 ms-5 me-5 img-fluid" style="background-image:url(../src/assets/StoneWall9.svg) ; ">
+
     <router-view></router-view>
   </div>
-
-  <footer class="bg-dark text-light" >
-    <div> Sponsered By: Myself </div>
-  </footer>
-
 </template>
-
-<style>
-footer{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  height: 56px;
-  }
-</style>
