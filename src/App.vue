@@ -29,7 +29,7 @@ let num = ref(0)
 
 
   
-  <div class="main mt-5 ms-5 me-5 img-fluid" style="background-image:url(../src/assets/StoneWall9.svg) ; ">
+  <div class="main mt-5 ms-5 me-5 img-fluid" style="background-image:url(../src/assets/StoneWall12.svg) ; ">
 
     <router-view></router-view>
   </div>

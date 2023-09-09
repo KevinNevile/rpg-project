@@ -82,7 +82,7 @@ onMounted(() => {
               v-for="classe in classes"
               :key="classe.name"
               :name="classe.name"
-              :url="classe.url"
+              :url="classe.index"
               />
             </div>
       </div>

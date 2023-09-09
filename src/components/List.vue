@@ -10,7 +10,7 @@ const classe = defineProps(["name", "url"])
             <div class="card-body mx-auto">
                 <h5 class="card-title text-center capitalize">{{ classe.name }}</h5>
 
-                <a :href="classe.url" target="_blank" class="btn btn-primary">Detalhes</a>
+                <a :href="'https://www.dnd5eapi.co/api/classes/' + classe.url" target="_blank" class="btn btn-primary">Detalhes</a>
             </div>
         </div>
     </div>
