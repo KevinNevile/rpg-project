@@ -66,10 +66,11 @@ onMounted(() => {
       </div>
   </main> -->
 
-  <main class="bg-img bg-cover has-bg-img " style="background-image:url('../src/assets/StoneWall12.svg')" >
+  <main>
+    <div class="container mb-5">
       <div class="row mx-auto">
         <div class="col-sm-12 col-md-6">
-          <div class="card mt-5 mb-5" style="width: 18rem;">
+          <div class="card mt-5 mb-5" style="width: 24rem;">
             <img src="../assets/favicon.ico" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">teste</h5>
@@ -86,6 +87,7 @@ onMounted(() => {
               />
             </div>
       </div>
+    </div>
   </main>
 
 </template>
