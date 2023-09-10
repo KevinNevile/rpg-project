@@ -2,13 +2,13 @@
 import { onMounted, reactive, ref } from 'vue';
 import List from '../components/List.vue';
 
-let classes = reactive(ref());
+let races = reactive(ref());
 
 onMounted(() => {
-  fetch("https://www.dnd5eapi.co/api/classes/")
+  fetch("https://www.dnd5eapi.co/api/races/")
   .then(response => response.json())
   .then(response => {
-    classes.value = response.results;
+    races.value = response.results;
     console.log(response);
   })
 }) 
@@ -80,10 +80,10 @@ onMounted(() => {
         </div>
             <div class="card-body row mx-auto">
               <List
-              v-for="classe in classes"
-              :key="classe.name"
-              :name="classe.name"
-              :url="classe.index"
+              v-for="race in races"
+              :key="race.name"
+              :name="race.name"
+              :url="race.index"
               />
             </div>
       </div>

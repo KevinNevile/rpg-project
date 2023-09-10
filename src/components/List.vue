@@ -1,5 +1,5 @@
 <script setup>
-const classe = defineProps(["name", "url"])
+const race = defineProps(["name", "url"])
 
 </script>
 
@@ -8,8 +8,8 @@ const classe = defineProps(["name", "url"])
         <div class="card mb-3">
         <img class="card-img-top" src="../assets/favicon.ico" alt="Card image cap">
             <div class="card-body mx-auto">
-                <h5 class="card-title text-center capitalize">{{ classe.name }}</h5>
-                <a :href="'https://www.dnd5eapi.co/api/classes/' + classe.url" target="_blank" class="btn btn-primary">Detalhes</a>
+                <h5 class="card-title text-center capitalize">{{ race.name }}</h5>
+                <a :href="'https://www.dnd5eapi.co/api/races/' + race.url" target="_blank" class="btn btn-primary">Detalhes</a>
             </div>
         </div>
     </div>
