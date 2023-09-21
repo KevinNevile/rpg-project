@@ -1,12 +1,13 @@
 <script setup>
 const race = defineProps(["name", "url", "alig"])
+const imageUrl = `../src/assets/races/${race.url}.png`
 
 </script>
 
 <template>  
     <div class="col-3 mt-5 ">
         <div class="card mb-3">
-        <img class="card-img-top" src="..." alt="Card image cap">
+        <img class="card-img-top" :src="imageUrl" alt="Card image cap" style="max-height: 380px; min-height: 400px;">
             <div class="card-body mx-auto">
                 <h5 class="card-title text-center capitalize">{{ race.name }}</h5>
                 <p class="card-text">{{ race.alig }}</p>
