@@ -7,11 +7,11 @@ const imageUrl = `../src/assets/races/${race.url}.png`
 <template>  
     <div class="col-3 mt-5 ">
         <div class="card mb-3">
-        <img class="card-img-top" :src="imageUrl" alt="Card image cap" style="max-height: 380px; min-height: 400px;">
+        <img class="card-img-top" :src="imageUrl" alt="Card image cap" >
             <div class="card-body mx-auto">
                 <h5 class="card-title text-center capitalize">{{ race.name }}</h5>
                 <p class="card-text">{{ race.alig }}</p>
-                <a :href="'https://www.dnd5eapi.co/api/races/' + race.url" target="_blank" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Detalhes</a>
+                <a :href="'https://www.dnd5eapi.co/api/races/' + race.url" target="_blank" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Detalhes</a>
             </div>
         </div>
     </div>
