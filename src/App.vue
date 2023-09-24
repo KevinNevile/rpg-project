@@ -6,7 +6,7 @@ let num = ref(0)
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-body " style="background-color: rgba(102, 0, 0, 0.863);">
+  <nav class="navbar navbar-expand-lg navbar-dark border-body " style="background-color: rgba(102, 0, 0, 0.863);">
     <div class="container-fluid">
       <img src="../src/assets/D20.svg" alt="Icone" width="30" height="30">
       <router-link to="/" class="navbar-brand">RPG-Races</router-link>
@@ -29,7 +29,7 @@ let num = ref(0)
 
 
   
-  <div class="main mt-5 d-flex justify-content-center align-items-center col-md-12 bg-img bg-cover has-bg-img " style="background-image:url('../src/assets/StoneWall12.svg')">
+  <div class="main d-flex justify-content-center align-items-center col-md-12 bg-img bg-cover has-bg-img " style="background-image:url('../src/assets/StoneWall12.svg')">
     
 
     <router-view></router-view>

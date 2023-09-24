@@ -18,13 +18,13 @@ onMounted(() => {
 <template>
   <main>
     <div class="container mb-5">
-      <div class="row mx-auto">
+      <div class="row mx-auto col d-flex justify-content-center">
         <div class="col-sm-12 col-md-6">
-          <div class="card mt-5 mb-5" style="width: 24rem;">
-            <img src="../assets/favicon.ico" class="card-img-top" alt="...">
+          <div class="card mt-5 mb-5">
+            <img src="../assets/Map.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">teste</h5>
-              <p class="card-text">teste</p>
+              <h2 class="card-title text-center">Bem vindo, Jogador!</h2>
+              <h5 class="card-text text-center">Entenda melhor qual raça se encaixa com sua definição de personagem para começar a jogar!</h5>
             </div>
           </div>
         </div>
