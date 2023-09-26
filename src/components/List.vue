@@ -37,8 +37,9 @@ onMounted(fetchRaceDetails);
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h5>Alignment:</h5> {{ raceDetails.alignment }}
-                    <h5>Age:</h5> {{ raceDetails.age }}
+                    <h5>Descrição:</h5> {{ raceDetails.alignment }} 
+                    <h5>Idade:</h5> {{ raceDetails.age }}
+                    <h5>Tamanho:</h5> {{ raceDetails.size_description }}
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
