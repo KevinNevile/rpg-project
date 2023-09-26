@@ -34,7 +34,6 @@ onMounted(() => {
               :key="race.name"
               :name="race.name"
               :url="race.index"
-              :alig="race.alignment"
               />
             </div>
       </div>

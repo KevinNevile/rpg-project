@@ -1,5 +1,5 @@
 <script setup>
-const race = defineProps(["name", "url", "alig"])
+const race = defineProps(["name", "url", "speed"])
 const imageUrl = `../src/assets/races/${race.url}.png`
 
 </script>
@@ -10,13 +10,14 @@ const imageUrl = `../src/assets/races/${race.url}.png`
         <img class="card-img-top" :src="imageUrl" alt="Card image cap" >
             <div class="card-body mx-auto">
                 <h5 class="card-title text-center capitalize">{{ race.name }}</h5>
-                <p class="card-text">{{ race.alig }}</p>
-                <a :href="'https://www.dnd5eapi.co/api/races/' + race.url" target="_blank" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Detalhes</a>
+                <a :href="'https://www.dnd5eapi.co/api/races/' + race.url" target="_blank" class="btn btn-success">Detalhes</a>
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+    <!-- data-bs-toggle="modal" data-bs-target="#exampleModal" -->
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -31,7 +32,7 @@ const imageUrl = `../src/assets/races/${race.url}.png`
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
