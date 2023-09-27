@@ -18,4 +18,25 @@ Projeto consumindo uma Api utilizando
 
 ## Objetivo
 
-- Fazer um projeto onde mostra as classes e uma descrição de cada uma.
+- Fazer uma página de um site consumindo a Api selecionada, mostrando as diferentes raças do jogo Dungeons&Dragons.
+- A página inicial mostrará cada uma das raças disponiveis no RPG de mesa, e ao clicar em detalhes, será mostrado um modal com uma descrição de cada classe, como detalhes de suas personalidades, idades e o tamanho que podem vir a possuir.
+
+
+
+
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
